@@ -201,7 +201,7 @@ isotonic regression, analytically invertible, and operationally simple to deploy
 
 ## What the calibration curves show
 
-![Calibration curves](outputs/bird/calibration_curves.png)
+![Calibration curves](outputs/calibration_curves.png)
 
 Each panel shows one species. The grey dots scattered at the top and bottom are the
 validated clips — dots near the top are true positives (BirdNET was right), dots near
