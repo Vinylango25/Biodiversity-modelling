@@ -270,22 +270,7 @@ cannot get both high precision and high recall for this species at the same time
 
 ---
 
-## Reliability: do the probabilities actually mean what they say?
 
-![Reliability diagrams](outputs/reliability_diagrams.png)
-
-A reliability diagram answers a simple question: when the model says "80%
-probability of being correct," is it actually right about 80% of the time?
-A perfectly calibrated model sits on the diagonal. Points above the diagonal mean
-the model is underconfident (it says 80% but actually gets it right 90% of the
-time). Points below mean overconfident.
-
-The logit-scale logistic method (red solid) tracks the diagonal most closely,
-particularly for the Nightjar where calibration matters most. The raw-score methods
-tend to be overconfident at high scores — they say "95% sure" when the actual rate
-is lower.
-
----
 
 ## Results: labelling the 29,491 predictions
 
