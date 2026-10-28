@@ -1,6 +1,4 @@
-# Natural State — Senior Data Scientist Take-Home Assessment
 
-This repository contains my work for the Natural State Senior Data Scientist take-home project, covering two independent challenges:
 
 1. **Bird Challenge** — Validating BirdNET acoustic predictions using calibration modelling and species-level thresholds
 2. **Vegetation Challenge** — Building a QC/QA tool for herbaceous vegetation survey data collected via ODK
